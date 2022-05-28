@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: helvetica, arial, sans-serif;
+}
+.item3{
+  color: rgb(169, 80, 139) !important; 
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 3px solid rgb(169, 80, 139);
+  padding: 1.2rem;
+  background-color: rgb(53, 66, 74);
+  color: white;
+}
+
+span {
+  color: rgb(169, 80, 139);
+}
+
+.navbar ul li.item {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.navbar ul li a {
+  color: white;
+  padding: 0.7rem;
+  text-decoration: none;
+}
+.subscribe {
+  background-color: rgb(53, 66, 74);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+input,
+button {
+  padding: 10px;
+  border: none;
+}
+
+button {
+  color: white;
+  background-color: orangered;
+  cursor: pointer;
+}
