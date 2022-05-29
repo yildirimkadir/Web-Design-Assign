@@ -76,6 +76,7 @@ button {
 }
 
 .hsg div {
+  height: 35vh;
   width: 33%;
   display: flex;
   flex-direction: column;
